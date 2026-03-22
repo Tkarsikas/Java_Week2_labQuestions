@@ -32,5 +32,13 @@ public class Main {
         System.out.println(r.toString());
         System.out.println(r.area());
         System.out.println(r.equals(r1));
+
+        System.out.println("--------------------");
+        Shape[] shapes = {new Circle(7), new Circle(2), new Rectangle(3.5, 9), new Rectangle(8, 12)};
+
+        for(int i=0; i<shapes.length; i++){
+            System.out.println(shapes[i].toString()+", pinta-ala: "+shapes[i].area());
+        
+        }
     }
 }

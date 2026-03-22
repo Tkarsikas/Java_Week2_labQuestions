@@ -28,12 +28,12 @@ public Rectangle(double width, double height){
 
     @Override
     public double area(){ 
-        return height*width;
+        return Math.round(height*width*100)/100.0;
     }
 
     @Override
     public String toString(){ 
-        return "leveys: "+width+", korkeus: "+ height;
+        return "Suorakulmion leveys: "+width+", korkeus: "+ height;
     }
 
     @Override

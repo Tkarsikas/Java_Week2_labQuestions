@@ -31,12 +31,12 @@ public class Circle extends Shape {
 
     @Override
     public double area(){ 
-        return Math.PI*(radius*radius);
+        return Math.round(Math.PI*radius*radius*100)/100.0;
     }
 
     @Override
     public String toString(){ 
-    return "säde: "+radius;
+    return "Ympyrän säde: "+radius;
     }
 
     @Override
