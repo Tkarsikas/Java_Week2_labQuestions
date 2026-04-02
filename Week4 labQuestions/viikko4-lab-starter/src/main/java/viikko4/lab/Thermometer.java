@@ -7,7 +7,7 @@ public class Thermometer implements Measurable {
         if(c != null){
         this.celsius = c;
         }else{
-            throw new IllegalArgumentException("Väärä arvo!");
+            throw new IllegalArgumentException("Väärä arvo! Thermometer");
         }
     }
     @Override

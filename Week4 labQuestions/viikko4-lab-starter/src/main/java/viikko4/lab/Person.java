@@ -8,10 +8,10 @@ public class Person {
         if(name != null && !name.trim().isEmpty()){
             this.name = name;
         }else{
-            throw new IllegalArgumentException("Väärä arvo!");
+            throw new IllegalArgumentException("Väärä arvo! Person");
         }
         if(age == null || age < 0){
-            throw new IllegalArgumentException("Väärä arvo!");
+            throw new IllegalArgumentException("Väärä arvo! Person");
         }else{
             this.age = age;
         }

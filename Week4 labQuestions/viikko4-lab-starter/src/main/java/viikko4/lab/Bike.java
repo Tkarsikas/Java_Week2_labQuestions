@@ -5,10 +5,20 @@ public class Bike extends Vehicle {
 
     public Bike(String name, Double s) {
         super(name);
-        /* TODO */ this.avgSpeedKmh = s;
+        
+        if(s != null && s>0){
+            this.avgSpeedKmh = s;
+        }else{
+            throw new IllegalArgumentException("Väärä arvo! Bike");
+        }
     }
-
+    
+    @Override
     public Double travelTimeHours(Double km) {
-        /* TODO */ return 0.0;
+        if(km !=null && km>0){
+            return km/avgSpeedKmh;
+        }else{
+            throw new IllegalArgumentException("Väärä arvo! Bike");
+        }
     }
 }

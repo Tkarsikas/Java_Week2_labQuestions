@@ -1,1 +1,10 @@
-package viikko4.lab; public class DeviceUtils { private DeviceUtils(){} public static int averageBattery(Device[] ds){ /*TODO*/ return 0; } }
+package viikko4.lab;
+
+public class DeviceUtils {
+    private DeviceUtils() {
+    }
+
+    public static int averageBattery(Device[] ds) {
+        /* TODO */ return 0;
+    }
+}
