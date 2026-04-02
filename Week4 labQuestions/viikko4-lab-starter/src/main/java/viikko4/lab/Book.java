@@ -5,12 +5,12 @@ public class Book {
     private Integer year;
 
     public Book(String t, String a, Integer y) {
-        if(t != null ){
+        if(t != null && !t.trim().isEmpty() ){
             this.title = t;
         }else{
             throw new IllegalArgumentException("Väärä arvo! title Book");
         }
-        if( a != null ){
+        if( a != null && a.trim().isEmpty()){
             this.author = a;    
         }else{
             throw new IllegalArgumentException("Väärä arvo!author Book");

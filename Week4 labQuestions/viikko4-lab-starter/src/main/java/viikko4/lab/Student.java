@@ -5,8 +5,16 @@ public class Student {
     private Integer credits;
 
     public Student(String n, Integer c) {
-        /* TODO */ this.name = n;
-        this.credits = c;
+        if(n != null && !n.trim().isEmpty()){
+            this.name = n;
+        }else{
+            throw new IllegalArgumentException("Väärä arvo! Student");
+        }
+        if(c != null && c>=0){
+            this.credits = c;
+        }else{
+            throw new IllegalArgumentException("Väärä arvo! Student");
+        }
     }
 
     public String getName() {
