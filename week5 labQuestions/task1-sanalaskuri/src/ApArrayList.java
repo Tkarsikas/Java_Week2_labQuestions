@@ -5,6 +5,7 @@ public class ApArrayList {
         String text  = "  Hello,    World! ja niin   että  ";
 
         System.out.println(countWords(text));
+        
     }
 
     public static int countWords(String text){
