@@ -8,9 +8,13 @@ public class App {
         objTasks.add(new Task("Level1", Difficulty.EASY));
         objTasks.add(new Task("Level2", Difficulty.EASY));
         objTasks.add(new Task("Level3", Difficulty.MEDIUM));
-        objTasks.add(new Task("Level4", Difficulty.HARD));
+        objTasks.add(new Task("Level4", Difficulty.MEDIUM));
+        objTasks.add(new Task("Level5", Difficulty.HARD));
+        objTasks.add(new Task("Level6", Difficulty.HARD));
+        objTasks.add(new Task("Level7", Difficulty.HARD));
 
         System.out.println(TaskFilter.filterBy(objTasks, Difficulty.EASY).toString());
+        System.out.println(TaskFilter.filterBy(objTasks, Difficulty.HARD).toString());
         
 
 
