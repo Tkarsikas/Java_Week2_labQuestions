@@ -1,18 +1,3 @@
-/**
- * Tehtävä 4 – Circle
- *
- * MITÄ TEET TÄHÄN TIEDOSTOON:
- *  1. Kenttä radius.
- *  2. Konstruktori.
- *  3. Ylikirjoita area(), toString(), equals().
- *
- * VINKIT:
- *  - Area = Math.PI * r * r.
- *
- * HUOM:
- *  - Älä käytä ArrayListiä tai muita kokoelmia.
- *  - Ei käyttäjän syötteitä metodeissa; testaa `main()`ista.
- */
 
 package fi.viikko2.task04;
 

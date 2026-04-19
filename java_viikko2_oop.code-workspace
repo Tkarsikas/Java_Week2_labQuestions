@@ -1,22 +1,22 @@
 {
   "folders": [
     {
-      "path": "Task01_Person"
+      "path": "Week2 labQuestions/Task01_Person"
     },
     {
-      "path": "Task02_Overloading"
+      "path": "Week2 labQuestions/Task02_Overloading"
     },
     {
-      "path": "Task03_BankAccount"
+      "path": "Week2 labQuestions/Task03_BankAccount"
     },
     {
-      "path": "Task04_Shapes"
+      "path": "Week2 labQuestions/Task04_Shapes"
     },
     {
-      "path": "Task05_Employees"
+      "path": "Week2 labQuestions/Task05_Employees"
     },
     {
-      "path": "Task06_PackagesVisibility"
+      "path": "Week2 labQuestions/Task06_PackagesVisibility"
     }
   ],
   "settings": {

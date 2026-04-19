@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "week5 labQuestions/task5-merkkienfrekvenssit/src"
+    ],
+    "java.project.outputPath": "week5 labQuestions/task5-merkkienfrekvenssit/bin",
+    "java.project.referencedLibraries": [
+        "**/lib/**/*.jar"
+    ]
+}
